@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-secio",
-  "version": "0.11.3",
+  "version": "0.11.4",
   "description": "Secio implementation in JavaScript",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
@@ -30,7 +30,8 @@
     "interface-connection": "~0.3.3",
     "libp2p-crypto": "~0.16.1",
     "multiaddr": "^6.0.6",
-    "@arve.knudsen/multihashing-async": "~0.6.1",
+    "multihashes": "^0.4.15",
+    "multihashing-async": "~0.6.0",
     "once": "^1.4.0",
     "peer-id": "~0.12.2",
     "peer-info": "~0.15.1",

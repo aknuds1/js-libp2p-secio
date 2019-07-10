@@ -1,6 +1,6 @@
 'use strict'
 
-const mh = require('@arve.knudsen/multihashing-async')
+const mh = require('multihashing-async')
 const lp = require('pull-length-prefixed')
 const pull = require('pull-stream/pull')
 const values = require('pull-stream/sources/values')
