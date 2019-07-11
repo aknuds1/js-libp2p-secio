@@ -1,6 +1,6 @@
 {
   "name": "@arve.knudsen/libp2p-secio",
-  "version": "0.11.5",
+  "version": "0.11.6",
   "description": "Secio implementation in JavaScript",
   "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "main": "src/index.js",
