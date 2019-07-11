@@ -3,7 +3,7 @@
 const multiaddr = require('multiaddr')
 const pull = require('pull-stream')
 const WS = require('libp2p-websockets')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 
 const secio = require('./src')
 

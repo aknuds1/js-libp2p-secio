@@ -8,7 +8,7 @@ const drain = require('pull-stream/sinks/drain')
 const Connection = require('interface-connection').Connection
 const parallel = require('async/parallel')
 const pair = require('pull-pair/duplex')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 
 const secio = require('../src')
 

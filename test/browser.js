@@ -9,7 +9,7 @@ const multiaddr = require('multiaddr')
 const pull = require('pull-stream')
 const pullGoodbye = require('pull-goodbye')
 const WS = require('libp2p-websockets')
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const parallel = require('async/parallel')
 
 const peerNodeJSON = require('./fixtures/peer-node.json')

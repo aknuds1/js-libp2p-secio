@@ -7,7 +7,7 @@ const chai = require('chai')
 const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 const Connection = require('interface-connection').Connection
 const parallel = require('async/parallel')
 const series = require('async/series')
